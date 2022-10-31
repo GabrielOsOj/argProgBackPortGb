@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://argentinaprogramagabosoj.web.app")
 public class estudiosYexperienciaControlador {
 
     @Autowired

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@CrossOrigin(value = "http://localhost:4200")
+@CrossOrigin(value = "https://argentinaprogramagabosoj.web.app")
 public class imagenesControlador {
 
     @Autowired
