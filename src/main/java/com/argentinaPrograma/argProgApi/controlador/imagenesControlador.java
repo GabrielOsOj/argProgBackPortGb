@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@CrossOrigin(origins = {"https://argentinaprogramagabosoj.firebaseapp.com/home",
-        "https://argentinaprogramagabosoj.web.app/home"})
+@CrossOrigin(origins = {"https://argentinaprogramagabosoj.firebaseapp.com",
+        "https://argentinaprogramagabosoj.web.app"})
 public class imagenesControlador {
 
     @Autowired
