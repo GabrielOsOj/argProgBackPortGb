@@ -17,7 +17,8 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin("**")
+@CrossOrigin(origins = {"https://argentinaprogramagabosoj.firebaseapp.com",
+        "https://argentinaprogramagabosoj.web.app"})
 public class proyectosControlador {
 
     @Autowired

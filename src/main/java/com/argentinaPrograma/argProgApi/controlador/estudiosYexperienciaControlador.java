@@ -16,7 +16,8 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@CrossOrigin("**")
+@CrossOrigin(origins = {"https://argentinaprogramagabosoj.firebaseapp.com",
+        "https://argentinaprogramagabosoj.web.app"})
 public class estudiosYexperienciaControlador {
 
     @Autowired
