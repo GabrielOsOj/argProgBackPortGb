@@ -14,7 +14,7 @@
 	<name>argProgApi</name>
 	<description>api rest argentina programa</description>
 	<properties>
-		<java.version>18.0.2</java.version>
+		<java.version>18</java.version>
 	</properties>
 	<dependencies>
 
