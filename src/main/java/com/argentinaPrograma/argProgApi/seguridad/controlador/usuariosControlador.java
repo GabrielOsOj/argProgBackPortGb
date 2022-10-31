@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(value = "http://localhost:4200")
+@CrossOrigin(origins = {"https://argentinaprogramagabosoj.firebaseapp.com/home",
+        "https://argentinaprogramagabosoj.web.app/home"})
 public class usuariosControlador {
 
     @Autowired

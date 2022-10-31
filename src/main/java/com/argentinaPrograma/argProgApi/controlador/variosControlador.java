@@ -18,7 +18,8 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = {"https://argentinaprogramagabosoj.firebaseapp.com/home",
+        "https://argentinaprogramagabosoj.web.app/home"})
 public class variosControlador {
 
     @Autowired
