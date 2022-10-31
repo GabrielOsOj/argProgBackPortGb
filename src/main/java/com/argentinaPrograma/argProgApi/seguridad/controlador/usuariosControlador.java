@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(value = "http://localhost:4200")
+@CrossOrigin(value = "https://argentinaprogramagabosoj.web.app")
 public class usuariosControlador {
 
     @Autowired
@@ -55,12 +55,12 @@ public class usuariosControlador {
 
 
 
-  /*
-      @GetMapping("privado")
+
+    /*  @GetMapping("privado")
         public boolean privado(){
         this.usuarioSv.cargarForzada();
         return true;}
-  */
 
+    */
 
 }

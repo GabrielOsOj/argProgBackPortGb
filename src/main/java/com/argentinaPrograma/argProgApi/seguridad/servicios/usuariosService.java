@@ -103,8 +103,8 @@ public class usuariosService {
     }
 
 
-
-   /* public void cargarForzada(){
+/*
+    private void cargarForzada(){
         usuariosT usuarioForzado = new usuariosT();
         String pass = "Carbonis";
 
@@ -117,6 +117,6 @@ public class usuariosService {
         usuarioForzado.setContraseña(hashPass);
 
         this.usuarioTrepo.save(usuarioForzado);}
-    */
 
+*/
 }
